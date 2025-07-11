@@ -1,0 +1,185 @@
+body{
+    background-image:url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    background-color: #ffffffdc;
+    border-radius: 10px;
+    height: 100px;
+    display:flex;  
+    justify-content: start;
+    position: sticky;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    color: #095614;
+}
+.child{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    font-size: large; 
+    margin-top: 25px;
+    margin-right: 490px;
+}
+.child1{
+    margin-bottom: 50px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.panier{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+footer{
+    background-color:#ffffffdc;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffffdc;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.wrapper h1{
+    padding: 30px 0;
+    text-align: center;
+    text-transform:uppercase;
+}
+.project{
+    display: flex;
+}
+.shop{
+    flex: 75%;
+}
+.box{
+    display: flex;
+    margin-bottom: 20px;
+    background: white;
+    transition: all .6s ease;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.297) 0 7px 29px 0 ;
+}
+.box:hover{
+    transform: scale(1.02);
+}
+.box img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.content{
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+.content h4{
+    margin-bottom: 50px;
+}
+.btn-area{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 25px;
+    background-color: #84a088;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.btn-area:hover{
+    background-color: #095614;
+    color: white;
+}
+.unit input{
+    width: 60px;
+    padding: 8px;
+    text-align: center;
+}
+.btn-area i{
+    margin-right: 5px;
+}
+img{
+    width: 300px;
+    height: 300px;
+}
+s{
+    color: red;
+}
+h4{
+    color: rgb(18, 152, 18);
+}
+h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+h1{
+    color: rgb(157, 23, 23);
+    background-color: #ffffffdc;
+    border-radius: 50px;
+}
+.btn1{
+    position: absolute;
+    display: flex;
+   margin-left: 530px;
+    padding: 20px 60px;
+    background-color: #b82121;
+    color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    font-weight: 700;
+}
+.btn1:hover{
+    background-color: white;
+    color: #b82121;
+    border: #b82121 2px solid;
+}
+@media screen and (max-width: 768px){
+    .project{
+        flex-direction: column;
+    }
+    .box img{
+        width: 100%;
+        height: 300px;
+        border-radius: 30px 30px 0 0;
+    }
+    .content{
+        padding: 10px;
+    }
+    .btn-area{
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+    .unit input{
+        width: 40px;
+        padding: 5px;
+    }
+    .btn1{
+        padding: 10px 30px;
+        margin-left: 0;
+    }
+    
+}
